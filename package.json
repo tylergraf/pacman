@@ -1,0 +1,11 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "description": "Pacman game written in html5.",
+  "main": "index.js",
+  "license": "MIT",
+  "flat": true,
+  "dependencies": {
+    "pixi.js": "^4.5.5"
+  }
+}
