@@ -34,7 +34,7 @@ pixijs.com is an html5 creation engine that supports 2D WebGL with canvas fallba
 ## Phase 1
 
 - [ ] Animating Pacman
-- [ ] How to move Pacman
+- [x] How to move Pacman
 - [ ] How walls and barriers work
 - [ ] Capturing/Counting pills
 - [ ] Set up world/scene
@@ -48,5 +48,4 @@ pixijs.com is an html5 creation engine that supports 2D WebGL with canvas fallba
 
 ## Phase 3
 
-- [ ] Ghost mode (when pacman gets a big pill)
 - [ ] Other stuff I have no idea about

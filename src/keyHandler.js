@@ -1,22 +1,27 @@
 import pacman from './pacman.js';
+import {setDirection, getDirection} from './direction.js'
 
-export default function(e){
+export function keyDown(e){
   switch (e.code) {
     case 'ArrowUp':
-      pacman.y -= 20;
+      setDirection('up');
       break;
     case 'ArrowRight':
-      pacman.x += 20;
+      setDirection('right');
 
       break;
     case 'ArrowDown':
-      pacman.y += 20;
+      setDirection('down');
 
       break;
     case 'ArrowLeft':
-      pacman.x -= 20;
+      setDirection('left');
 
       break;
 
   }
+}
+
+export function keyUp(e){
+  // setDirection(null);
 }
